@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="product-number">6 from 30</div>
+      <div className="product-number">Current Page : {currentPage}</div>
       <div className="page-number">
         <div
           onClick={() => handlePageChange(currentPage - 1)}
