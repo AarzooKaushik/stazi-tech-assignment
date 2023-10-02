@@ -1,0 +1,29 @@
+.footer {
+  background-color: #f2f6fc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(211, 211, 211);
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.page-number div {
+  transition: 0.5s;
+  font-size: 15px;
+  padding: 8px 15px;
+  background: #fdfcfd;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(217, 217, 217, 0.871);
+}
+.page-number .active {
+  background-color: #dadada;
+}
+.disabled {
+  color: rgb(147, 147, 147);
+}

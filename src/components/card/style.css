@@ -1,0 +1,79 @@
+.card-container {
+  padding: 10px;
+  width: 100%;
+  background-color: #f2f6fc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(211, 211, 211);
+}
+.card-img {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.card-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.card-details {
+  padding: 0 10px;
+}
+.card-name {
+  margin: 15px 0;
+}
+.card-name .name {
+  font-size: 22px;
+  font-weight: 500;
+  color: #383852;
+}
+.card-name .modal {
+  padding: 2px 12px;
+  border-radius: 10px;
+  border: 1px dashed #4998ec;
+}
+.card-specs {
+  font-size: 15px;
+  color: rgb(100, 99, 99);
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.card-container i {
+  color: #62a9ef;
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card-container button {
+  border: 2px solid transparent;
+  padding: 8px 20px;
+  color: white;
+  background-color: #4998ec;
+  border-radius: 10px;
+}
+.card-button div {
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #daebfa;
+}
+.card-button div i {
+  margin-right: 0;
+}
+.card-footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.289);
+}
+.card-price span {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
